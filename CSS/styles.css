@@ -110,6 +110,15 @@ body {
      left:370px;
      display:inline-block;
   }
+ .c3{
+     background-color:white;
+     width:150px;
+     height:250px;
+     border-radius:15px;
+     position:absolute;
+     left:370px;
+     display:inline-block;
+  }
   .input{
      font-weight: bold;
      width: 200px;

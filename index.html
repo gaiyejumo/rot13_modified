@@ -3,9 +3,8 @@
   <head>
     <title>My Website</title>
     <link rel="stylesheet" type="text/css" href="CSS/styles.css">
-    
   </head>
-<body>
+<body data-new-gr-c-s-loaded="14.1093.0" data-new-gr-c-s-check-loaded="14.1093.0" data-gr-ext-installed="">
     <div class="container">
         <div class="c1">   
            <div class="c11">
@@ -59,8 +58,18 @@
                }
             </style>
             
-         <body data-new-gr-c-s-loaded="14.1093.0" data-new-gr-c-s-check-loaded="14.1093.0" data-gr-ext-installed="">
-
+            <!-- rot13 implementation from http://stackoverflow.com/a/617685/987044 -->
+            <script type="text/javascript">
+               function rot(s, i) {
+                  return s.replace(/[a-zA-Z]/g, function (c) {
+                     return String.fromCharCode((c <= 'Z' ? 90 : 122) >= (c = c.charCodeAt(0) + i) ? c : c - 26);
+                  });
+               }
+               function update() {
+                  document.getElementById('output').value = rot(document.getElementById('input').value, +document.getElementById('rot').value);
+               }
+            </script>
+            
          <h1>rot13.com</h1>
          <h2><a href="https://en.wikipedia.org/wiki/ROT13">About ROT13</a></h2>
 

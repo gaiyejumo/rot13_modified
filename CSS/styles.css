@@ -36,8 +36,8 @@ body {
   
   .c11{ 
       
-     background-image:url('https://images.unsplash.com/photo-1644358731342-2d83c9c8a474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
-     /*background-image:url(/image/Gbenga.png); */
+    /* background-image:url('https://images.unsplash.com/photo-1644358731342-2d83c9c8a474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');*/
+    background-image:url('https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
      background-size:300px 400px;
      background-repeat: no-repeat;
      background-color:white;
@@ -119,6 +119,7 @@ body {
      border-radius:15px;
      position:absolute;
      display:inline-block;
+     margin-left: 110px;
   }
   .input{
      font-weight: bold;

@@ -34,9 +34,10 @@ body {
      border-radius:15px 15px 15px 15px;
   }
   
-  .c11{
-/*     background-image:url('https://images.unsplash.com/photo-1644358731342-2d83c9c8a474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
-  */ background-image:url(/image/Gbenga.png);
+  .c11{ 
+      
+     background-image:url('https://images.unsplash.com/photo-1644358731342-2d83c9c8a474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
+     /*background-image:url(/image/Gbenga.png); */
      background-size:300px 400px;
      background-repeat: no-repeat;
      background-color:white;
